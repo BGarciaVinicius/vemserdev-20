@@ -50,7 +50,7 @@ int main(){
                     area = m1 * m1;
                     perimetro = 4 * m1;
                     printf("\n\nArea: %.2f", area);
-                    printf("\nPerimetro: %.2f", perimetro);;
+                    printf("\nPerimetro: %.2f", perimetro);
                 }
                 if (op == '2')
                 {
@@ -61,17 +61,17 @@ int main(){
                     area = m1 * m2;
                     perimetro = 2 * m1 + 2 * m2;
                     printf("\n\nArea: %.2f", area);
-                    printf("\nPerimetro: %.2f", perimetro);;
+                    printf("\nPerimetro: %.2f", perimetro);
                 }
                 if (op == '3')
                 {
                     system("clear");
                     printf("Calculando a área de um triangulo");
-                    printf("\n\nDigite o comprimento do lado: ");
+                    printf("\n\nDigite o comprimento dos lados: ");
                     scanf("%f %f", &m1, &m2);
                     area = m1 * m2 / 2;
                     printf("\n\nArea: %.2f", area);
-                    printf("\nPerimetro: %.2f", perimetro);;
+                    printf("\nPerimetro: %.2f", perimetro);
                 }
             }
             else {
