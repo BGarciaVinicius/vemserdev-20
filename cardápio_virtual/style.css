@@ -14,11 +14,67 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-style: solid;
+    border-color: red;
+    width: 50rem;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(33, 33, 33);
 }
+
+.header img {
+    width: 100px;
+}
+
+.burger-info {
+    margin-left: 50px;
+}
+
+.list {
+    display: grid;
+    border-style: solid;
+    border-color: red;
+    width: 50rem;
+    height: 800px;
+    margin: auto;
+    font-size: 20px;
+    background-color: rgb(33, 33, 33);
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.option .details {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.option .details p {
+    color: white;
+}
+
+.contact {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
