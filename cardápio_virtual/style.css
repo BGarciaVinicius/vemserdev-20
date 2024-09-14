@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Handjet", sans-serif;
+    background-color: black;
+    color: yellow;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
