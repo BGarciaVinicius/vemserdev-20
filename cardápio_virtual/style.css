@@ -4,7 +4,9 @@
 }
 
 body {
-    font-family: "Handjet", sans-serif;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
     background-color: black;
     color: yellow;
 }
@@ -25,7 +27,7 @@ h2 {
     border-color: red;
     width: 50rem;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: rgb(33, 33, 33);
 }
 
@@ -37,25 +39,31 @@ h2 {
     margin-left: 50px;
 }
 
-.list {
+.menu {
     display: grid;
     border-style: solid;
     border-color: red;
     width: 50rem;
-    height: 800px;
+    height: 75rem;
     margin: auto;
     font-size: 20px;
     background-color: rgb(33, 33, 33);
+    margin-bottom: 20px;
 }
 
-.option {
+.burgers {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu-option {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin: 20px;
 }
 
-.option .details {
+.menu-option .menu-option-details {
     display: flex;
     flex-direction: column;
 }
@@ -66,15 +74,23 @@ h2 {
     justify-content: flex-end;
 }
 
-.option .details p {
+.menu-option .menu-option-details p {
     color: white;
+}
+
+.menu-option .menu-option-details h3 {
+    text-transform: uppercase;
+}
+
+.drinks {
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .contact {
     margin-left: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 
