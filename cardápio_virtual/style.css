@@ -7,7 +7,9 @@ body {
     font-family: "Sofadi One", system-ui;
     font-weight: 400;
     font-style: normal;
-    background-color: black;
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: yellow;
 }
 
@@ -28,7 +30,7 @@ h2 {
     width: 50rem;
     margin: auto;
     margin-top: 20px;
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(33, 33, 33, .6);
 }
 
 .header img {
@@ -47,7 +49,7 @@ h2 {
     height: 75rem;
     margin: auto;
     font-size: 20px;
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(33, 33, 33, .6);
     margin-bottom: 20px;
 }
 
