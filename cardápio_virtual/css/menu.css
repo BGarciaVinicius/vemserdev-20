@@ -4,13 +4,34 @@
 }
 
 body {
-    font-family: "Sofadi One", system-ui;
+    font-family: "Sofadi One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url(./assets/background.jpg);
+    background-image: url(../assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
     color: yellow;
+}
+
+button {
+    width: 150px;
+    margin: 20px;
+    font-family: "Sofadi One", sans-serif;
+    background-color: red;
+    border-color: red;
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: rgb(199, 0, 0);
+    border-color: rgb(199, 0, 0);
+    color: rgb(194, 194, 2);
+    cursor: pointer;
 }
 
 h1 {
@@ -21,35 +42,44 @@ h2 {
     font-size: 20px;
 }
 
-.header {
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-style: solid;
-    border-color: red;
-    width: 50rem;
+    width: 60rem;
     margin: auto;
-    margin-top: 20px;
     background-color: rgb(33, 33, 33, .6);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
 }
 
-.header img {
+.title img {
     width: 100px;
+    margin-left: 50px;
 }
 
 .burger-info {
     margin-left: 50px;
 }
 
-.menu {
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: auto;
+    max-width: 110rem;
+}
+
+.menu, .menu-drinks {
     display: grid;
     border-style: solid;
     border-color: red;
     width: 50rem;
-    height: 75rem;
+    height: 45rem;
     margin: auto;
     font-size: 20px;
-    background-color: rgb(33, 33, 33, .6);
+    background-color: rgba(33, 33, 33, .6);
     margin-bottom: 20px;
 }
 
@@ -93,6 +123,7 @@ h2 {
     margin-left: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
