@@ -1,15 +1,19 @@
+import {BrowserRouter} from 'react-router-dom'
+
 import GlobalStyles from "./styles/GlobalStyles"
 import {ThemeProvider} from 'styled-components'
 
-import dark from './styles/themes/dark'
+import { AppRoutes } from './routes/AppRoutes'
 
-import { Dashboard  } from "./pages/Dashboard"
+import dark from './styles/themes/dark'
 
 export function App() {
   return (
     <ThemeProvider theme={dark}>
       <GlobalStyles />
-      <Dashboard />
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
     </ThemeProvider>
   )
 }

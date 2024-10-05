@@ -61,3 +61,6 @@ export const Content = styled.div`
         }
     }
 `
+export const ContentLoader = styled.div`
+    margin-top: 32px;
+`
